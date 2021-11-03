@@ -1,21 +1,21 @@
- <input type="radio" id="apple" name="fruit" value="black" onchange="func1()"
+ <input type="radio" id="xxxx" name="fruit" value="black" onchange="func1()"
  checked>
-  <label for="apple">黒</label><br>
-  <input type="radio" id="banana" name="fruit" value="white" onchange="func1(
+  <label for="xxxx">黒</label><br>
+  <input type="radio" id="xxxx" name="fruit" value="white" onchange="func1(
 )">
-  <label for="banana">白</label><br>
-  <input type="radio" id="cherry" name="fruit" value="green" onchange="func1(
+  <label for="xxxx">白</label><br>
+  <input type="radio" id="xxxx" name="fruit" value="green" onchange="func1(
 )">
-  <label for="cherry">緑</label><br>
-<input type="radio" id="apple" name="fruit" value="red" onchange="func1()"
+  <label for="xxxx">緑</label><br>
+<input type="radio" id="xxxx" name="fruit" value="red" onchange="func1()"
  checked>
-  <label for="apple">赤</label><br>
-  <input type="radio" id="banana" name="fruit" value="blue" onchange="func1(
+  <label for="xxxx">赤</label><br>
+  <input type="radio" id="xxxx" name="fruit" value="blue" onchange="func1(
 )">
-  <label for="banana">青</label><br>
-  <input type="radio" id="cherry" name="fruit" value="yellow" onchange="func1(
+  <label for="xxxx">青</label><br>
+  <input type="radio" id="xxxx" name="fruit" value="yellow" onchange="func1(
 )">
-  <label for="cherry">黄</label><br>
+  <label for="xxxx">黄</label><br>
   <script language="javascript" type="text/javascript">
   function func1() {
     var fruits = document.getElementsByName("fruit");
