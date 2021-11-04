@@ -73,7 +73,7 @@
   $cols = $_POST["cols"];
   for ($count = 0; $count < $count_max; $count++){
   
-    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\"0\" id=$count></input>";
+    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\" \" id=$count></input>";
     if($count%$cols==($cols-1)){
       echo "<br>";
     }
