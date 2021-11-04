@@ -1,6 +1,11 @@
-<input type="radio" id="xxxx" name="fruit" value="brown" onchange="func1()"
+<input type="radio" id="xxxx" name="fruit" value="beige" onchange="func1()"
+ checked>
+  <label for="xxxx">肌</label>
+
+  <input type="radio" id="xxxx" name="fruit" value="brown" onchange="func1()"
  checked>
   <label for="xxxx">茶</label>
+
 
   <input type="radio" id="xxxx" name="fruit" value="gray" onchange="func1()"
  checked>
