@@ -2,6 +2,19 @@
  checked>
   <label for="xxxx">肌</label>
 
+  <input type="radio" id="xxxx" name="fruit" value="burlywood" onchange="func1()"
+ checked>
+  <label for="xxxx">薄茶</label>
+ 
+  <input type="radio" id="xxxx" name="fruit" value="lightskyblue" onchange="func1()"
+ checked>
+  <label for="xxxx">スカイブルー</label>
+
+  <input type="radio" id="xxxx" name="fruit" value="aquamarine" onchange="func1()"
+ checked>
+  <label for="xxxx">アクアマリン</label>
+
+
   <input type="radio" id="xxxx" name="fruit" value="brown" onchange="func1()"
  checked>
   <label for="xxxx">茶</label>
@@ -13,13 +26,20 @@
 
   <input type="radio" id="xxxx" name="fruit" value="pink" onchange="func1()"
  checked>
-  <label for="xxxx">桃</label>
+  <label for="xxxx">桃</label><br>
 
 
 <input type="radio" id="xxxx" name="fruit" value="black" onchange="func1()"
  checked>
   <label for="xxxx">黒</label>
-  <input type="radio" id="xxxx" name="fruit" value="white" onchange="func1(
+
+  <input type="radio" id="xxxx" name="fruit" value="orange" onchange="func1()"
+ checked>
+  <label for="xxxx">オレンジ</label>
+
+
+
+<input type="radio" id="xxxx" name="fruit" value="white" onchange="func1(
 )">
   <label for="xxxx">白</label>
   <input type="radio" id="xxxx" name="fruit" value="green" onchange="func1(
