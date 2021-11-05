@@ -66,14 +66,21 @@
   }
   func1();
   </script>
-
+<style>
+  body {
+    background-color: lightskyblue;
+  }  
+.example2{
+    border: none;
+}
+</style>
 <?php
 
   $count_max = $_POST["post_data"];
   $cols = $_POST["cols"];
   for ($count = 0; $count < $count_max; $count++){
   
-    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\" \" id=$count></input>";
+    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\" \" id=$count style=\"background-color:white;\" class=\"example2\"></input>";
     if($count%$cols==($cols-1)){
       echo "<br>";
     }

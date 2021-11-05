@@ -66,13 +66,23 @@
   }
   func1();
   </script>
+<style>
+    body {
+    background-color: lightskyblue;
+  }  
+
+.example2{
+    border: none;
+    color: white;
+}
+</style>
 
 <?php
 
   $count_max = $_POST["post_data"];
   $cols = $_POST["cols"];
   for ($count = 0; $count < $count_max; $count++){
-    echo "<input type=\"button\" id=$count value=\" \" style=\"background-color:white;\" >";
+    echo "<input type=\"button\" id=$count value=\" \" style=\"background-color:white;\" class=\"example2\" >";
   
     echo "<script language=\"javascript\" type=\"text/javascript\">";
   
