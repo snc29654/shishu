@@ -1,5 +1,5 @@
-エレメント:<br>
-<div style="height:200px; margin:0px 0px 10px 0px; border:10px #0a0 solid; background:#4f4;" id="element_06"></div>
+<br>
+<div style="height:200px; margin:0px 0px 10px 0px; border:10px #0a0 solid; background:#4f4; display:none;"  id="element_06" ></div>
 
 <div style="margin:0px 0px 5px 0px;">
 左ボタン:<input id="edit_06_left" style="width:60px; margin:0px 20px 0px 5px;">
