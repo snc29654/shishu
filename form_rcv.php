@@ -76,11 +76,12 @@
 </style>
 <?php
 
+  $button_color = $_POST["button_color"];
   $count_max = $_POST["post_data"];
   $cols = $_POST["cols"];
   for ($count = 0; $count < $count_max; $count++){
   
-    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\" \" id=$count style=\"background-color:white;\" class=\"example2\"></input>";
+    echo "<input onclick=\"buttonClick(this.id)\" type=\"button\" value=\" \" id=$count style=\"background-color:$button_color;\" class=\"example2\"></input>";
     if($count%$cols==($cols-1)){
       echo "<br>";
     }
