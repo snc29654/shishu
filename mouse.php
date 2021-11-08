@@ -313,11 +313,11 @@
 </style>
 
 <?php
-
+  $button_color = $_POST["button_color"];
   $count_max = $_POST["post_data"];
   $cols = $_POST["cols"];
   for ($count = 0; $count < $count_max; $count++){
-    echo "<input type=\"button\" id=$count value=\" \" style=\"background-color:white;\" class=\"example2\" >";
+    echo "<input type=\"button\" id=$count value=\" \" style=\"background-color:$button_color;\" class=\"example2\" >";
   
     echo "<script language=\"javascript\" type=\"text/javascript\">";
   
