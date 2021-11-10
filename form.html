@@ -28,5 +28,17 @@
 
     <input type="submit">
   </form>
+  <script>
+    function inputChange(event){
+        console.log(event.currentTarget.value);
+        document.body.style.backgroundColor = event.currentTarget.value;
+
+    }
+    
+    
+    document.getElementById('button_color').addEventListener('change', inputChange);
+    
+    </script>
+
 </body>
 </html>
