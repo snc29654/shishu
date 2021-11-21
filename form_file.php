@@ -77,9 +77,9 @@
 <?php
 
   $button_color = $_POST["button_color"];
-  $count_max = $_POST["post_data"];
+  $row = $_POST["row"];
   $cols = $_POST["cols"];
-
+  $count_max=$row*$cols;
   define("TESTFILE","./color_code.txt");
   $fh = fopen(TESTFILE, "r");
 
