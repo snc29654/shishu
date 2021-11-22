@@ -62,8 +62,9 @@
 
   <input type="radio" id="xxxx" name="fruit" value="paste" onchange="func1(
 )">
-  <label for="xxxx">貼り付け</label><br>
+  <label for="xxxx">貼り付け</label>
 
+  <input  type="button" value="コピーした色" id=999999 ></input><br>
 
   <script language="javascript" type="text/javascript">
   function func1() {
@@ -114,6 +115,7 @@
     echo "function buttonClick(count){";
       echo "if (color==\"copy\"){";
         echo "color_copy=document.getElementById(count).style.backgroundColor;";
+        echo "document.getElementById(999999).style.backgroundColor = color_copy;";
       echo "}else if (color==\"paste\") {";      
 
         echo "document.getElementById(count).style.backgroundColor = color_copy;";
