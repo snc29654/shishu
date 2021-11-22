@@ -51,9 +51,20 @@
   <input type="radio" id="xxxx" name="fruit" value="blue" onchange="func1(
 )">
   <label for="xxxx">青</label>
+
   <input type="radio" id="xxxx" name="fruit" value="yellow" onchange="func1(
 )">
   <label for="xxxx">黄</label><br>
+
+  <input type="radio" id="xxxx" name="fruit" value="copy" onchange="func1(
+)">
+  <label for="xxxx">コピー</label>
+
+  <input type="radio" id="xxxx" name="fruit" value="paste" onchange="func1(
+)">
+  <label for="xxxx">貼り付け</label><br>
+
+
   <script language="javascript" type="text/javascript">
   function func1() {
     var fruits = document.getElementsByName("fruit");
@@ -101,10 +112,15 @@
 
 
     echo "function buttonClick(count){";
-      echo "const button1 = document.getElementById(\"button\");";
+      echo "if (color==\"copy\"){";
+        echo "color_copy=document.getElementById(count).style.backgroundColor;";
+      echo "}else if (color==\"paste\") {";      
 
-      echo "document.getElementById(count).style.backgroundColor = color;";
+        echo "document.getElementById(count).style.backgroundColor = color_copy;";
 
+      echo "}else{";      
+          echo "document.getElementById(count).style.backgroundColor = color;";
+        echo "}";
 
     echo "}";        
     echo "</script>";
