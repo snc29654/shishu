@@ -320,21 +320,23 @@
     echo "<input type=\"button\" id=$count value=\" \" style=\"background-color:$button_color;\" class=\"example2\" >";
   
     echo "<script language=\"javascript\" type=\"text/javascript\">";
-  
+
+    echo "document.getElementById($count).addEventListener(\"mousedown\", () => {";
+			echo "document.getElementById($count).style.backgroundColor = color;";
+  	echo "});";
+
+
     echo "document.getElementById($count).addEventListener(\"mouseout\", () => {";
-      echo "if(document.getElementById(\"edit_06_left\").value==\"true\"){";
-
-      echo "document.getElementById($count).style.backgroundColor = color;";
-
-      echo "}";
-
-      echo "});";
+      	echo "if(document.getElementById(\"edit_06_left\").value==\"true\"){";
+      		echo "document.getElementById($count).style.backgroundColor = color;";
+      	echo "}";
+    echo "});";
   
-      echo "document.getElementById($count).addEventListener(\"mouseover\", () => {";
+    echo "document.getElementById($count).addEventListener(\"mouseover\", () => {";
         echo "if(document.getElementById(\"edit_06_left\").value==\"true\"){";
-          echo "document.getElementById($count).style.backgroundColor = color;";
-          echo "}";
-          echo "});";
+          	echo "document.getElementById($count).style.backgroundColor = color;";
+        echo "}";
+    echo "});";
   
         echo "</script>";
   
